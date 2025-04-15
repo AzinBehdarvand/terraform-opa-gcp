@@ -46,8 +46,10 @@ deny := [msg |
 
 
 📸 Screenshots
-✅ Valid Bucket – Passes Policy
-❌ Invalid Bucket – Rejected by Policy
+### ✅ Valid Bucket – Passes Policy
+![Valid Bucket](images/opa-pass.png)
+### ❌ Invalid Bucket – Rejected by Policy
+![Invalid Bucket](images/opa-fail.png)
 
 🧠 Why this matters
 Infrastructure as Code (IaC) and Policy as Code (PaC) are critical for scalable, secure, and automated platform engineering. This repo demonstrates how to combine Terraform and OPA for pre-deployment governance of GCP resources.
